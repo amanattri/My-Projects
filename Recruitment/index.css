@@ -1,0 +1,300 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+.container{
+    box-sizing: content-box;
+}
+body{
+    margin: 10px;
+    background-color: #f5f5f7;;
+}
+
+.navBar h1{
+    color: rgb(86, 219, 86);
+  
+   position: absolute;
+   float: right;
+   right: 20px;
+   font-size: 37px;
+ 
+}
+nav {
+    padding:20px ;
+    background-color: #333;
+    overflow: hidden;
+   
+    display: flex;
+    
+}
+.footer {
+    
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    
+}
+
+ nav a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+   
+  
+    color: white;
+    font-family: 'Roboto';
+    padding-top: 37px;
+    float: right;
+    
+    
+}
+#Sigma{
+    color: rgb(86, 219, 86);
+    font-size: 35px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto';
+   
+}
+.content{
+    text-align: center; 
+    background: url('images/HR.jpg');
+    width: 100%;
+    height: 100%;
+}
+ .main{
+    position: absolute;
+  top: 210px;
+  left: 80px;
+  width: 500px;
+  height: 100px;
+  color: white;
+ }
+ .posting{
+    text-align: center;
+    padding-top: 30px;
+ }
+ .row-1{
+    display: flex;
+    padding: 19px;
+    
+    position: relative;
+    left: 15%;
+
+    
+}
+.photu1 {
+   float: left; 
+    width: 40x;
+    height: 40px;
+    margin-right: 44px;
+   
+}
+.photu2 {
+   float: left; 
+    width: 40x;
+    height: 40px;
+    margin-right: 44px;
+   
+}
+.box-1,.box-2 {
+padding: 50px;
+font-size: large;
+
+margin: 55px;
+border: 2px solid white;
+width: 300px;
+height: 200px;
+background-color: white;
+
+
+}
+i{
+    padding-right: 10px;
+    color: rgb(86, 219, 86);
+}
+.h1{
+    display: flex;
+    flex-direction: column;
+}
+.button-1{
+    width: 60%;
+
+}
+.button-2{
+    width: 70%;
+
+}
+.h2{
+    display: flex;
+    flex-direction: column;
+}
+ .row-2{
+    display: flex;
+    padding: 19px;
+    
+    position: relative;
+    left: 15%;
+
+    
+}
+.photu3 {
+   float: left; 
+    width: 40x;
+    height: 40px;
+    margin-right: 44px;
+   
+}
+.photu4 {
+   float: left; 
+    width: 40x;
+    height: 40px;
+    margin-right: 44px;
+   
+}
+.box-3,.box-4 {
+padding: 50px;
+font-size: large;
+
+margin: 55px;
+border: 2px solid white;
+width: 300px;
+height: 200px;
+background-color: white;
+
+
+}
+i{
+    padding-right: 10px;
+    color: rgb(86, 219, 86);
+}
+.h3{
+    display: flex;
+    flex-direction: column;
+}
+.button-1{
+    width: 85%;
+    border: 1px solid rgb(86, 219, 86);
+    border-radius: 10px;
+    color: rgb(86, 219, 86);
+    font-size: large;
+
+}
+.button-2{
+    width: 85%;
+    border: 1px solid rgb(116, 153, 116);
+    border-radius: 10px;
+    color: rgb(86, 219, 86);
+    font-size: large;
+
+}
+.h4{
+    display: flex;
+    flex-direction: column;
+}
+.buildimg{
+    text-align: center; 
+    background: url('images/Emp.jpg');
+    width: 100%;
+    height: 100%;
+}
+.builds{
+   position: relative;
+  top: 240px;
+  left: 500px;
+  width: 500px;
+  height: 100px;
+  color: black;
+  font-size: 20px;
+ }
+ .button-3{
+    color: white;
+    background-color: rgb(86, 219, 86);
+    border: 1px solid rgb(86, 219, 86);
+    padding: 13px 30px;
+    border-radius: 5px;
+ }
+ .button-3:hover{
+    cursor: pointer;
+    color:rgb(86, 219, 86);
+    background: none;
+ }
+ .latest{
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+ }
+ 
+ .row-3{
+    display: flex;
+    padding: 19px;
+    
+    position: relative;
+    left: 15%;
+
+    
+}
+.photu5 {
+   float: top; 
+    width: 300px;
+    height: 200px;
+    
+   
+}
+.photu6 {
+    float: top; 
+    width: 300px;
+    height: 200px;
+   
+}
+.box-5,.box-6 {
+padding: 50px;
+padding-left: 13px;
+font-size: large;
+
+margin: 55px;
+border: 2px solid white;
+width: 270px;
+height: 300px;
+background-color: white;
+
+
+}
+.h5{
+    display: flex;
+    flex-direction: column;
+}
+.h6{
+    display: flex;
+    flex-direction: column;
+}
+.latestbutton{
+    color: white;
+    background-color: rgb(86, 219, 86);
+    border: 1px solid rgb(86, 219, 86);
+    padding: 13px 30px;
+    border-radius: 5px;
+ }
+ .latestbutton:hover{
+    cursor: pointer;
+    color:rgb(86, 219, 86);
+    background: none;
+ }
+
+ .dabba{
+    background-color: black;
+    color: white;
+  
+    margin-top: 20px;
+    
+    padding: 100px 100px;
+ }
+ 
+ #glass{
+    position: relative;
+   float: left;
+   margin-right: 10px;
+ }
+ 
